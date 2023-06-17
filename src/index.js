@@ -5,10 +5,13 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import CrearCuenta from './acelera/CrearCuenta';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
-import Principal from './acelera/Principal';
+
 import EditarPerfil from './acelera/EditarPerfil';
 import ExamenEntrada from './acelera/ExamenEntrada';
 import ModuloCursos from './acelera/ModuloCursos';
+import Footer from './acelera/Components/Footer';
+import SearchBar from './acelera/Components/SearchBar';
+import Principal from './acelera/Principal';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -17,6 +20,8 @@ root.render(
     <BrowserRouter>
       <Routes>
         <Route path='/principal' element={<Principal/>} />
+        <Route path='/bar' element={<SearchBar/>} />
+        <Route path='/pie' element={<Footer/>} />
         <Route path='/crear' element={<CrearCuenta/>} />
         <Route path='/editar' element={<EditarPerfil/>} />
         <Route path='/examen' element={<ExamenEntrada/>} />
