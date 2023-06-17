@@ -59,12 +59,7 @@ const SearchBar = () => {
                   </MDBDropdownMenu>
                 </MDBDropdown>
               </MDBNavbarItem>
-  
-              <MDBNavbarItem>
-                <MDBNavbarLink disabled href='#' tabIndex={-1} aria-disabled='true'>
-                  Disabled
-                </MDBNavbarLink>
-              </MDBNavbarItem>
+
               <form className='d-flex input-group w-auto'>
               <input type='search' className='form-control'  aria-label='Search' />
               <MDBBtn color='primary'>Buscar</MDBBtn>

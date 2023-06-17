@@ -11,10 +11,13 @@ import {
     MDBIcon,
 
   } from 'mdb-react-ui-kit';
+import SearchBar from "./Components/SearchBar";
 
 const EditarPerfil = () => {
     return (
+        
         <MDBContainer fluid>
+          <SearchBar></SearchBar>
     
           <MDBCard className='text-black m-5' style={{borderRadius: '25px'}}>
             <MDBCardBody>
