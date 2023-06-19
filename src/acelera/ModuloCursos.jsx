@@ -31,18 +31,13 @@ const ModuloCursos = () =>{
 
     
     
-                  <MDBBtn className='mb-4' size='lg'>Razonamiento Matematico</MDBBtn>
-                  <MDBBtn className='mb-4' size='lg'>Geometria</MDBBtn>
-                  <MDBBtn className='mb-4' size='lg'>Trigonometria</MDBBtn>
+                  <MDBBtn className='mb-4' size='lg'>Razonamiento Verbal intro</MDBBtn>
+                  <MDBBtn className='mb-4' size='lg'>Razonamiento Verbal I</MDBBtn>
+                  <MDBBtn className='mb-4' size='lg'>Razonamiento Verbal II</MDBBtn>
     
                 </MDBCol>
     
-                <MDBCol md='10' lg='6' className='order-2 order-lg-1 d-flex flex-column align-items-left'>
-                  <MDBBtn className='mb-4' size='lg'>Lenguaje</MDBBtn>
-                  <MDBBtn className='mb-4' size='lg'>Razonamiento Verbal</MDBBtn>
-                  <MDBBtn className='mb-4' size='lg'>Historia</MDBBtn>
-            
-                </MDBCol>
+
     
               </MDBRow>
             </MDBCardBody>
