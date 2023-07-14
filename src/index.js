@@ -12,6 +12,12 @@ import ModuloCursos from './acelera/ModuloCursos';
 import Footer from './acelera/Components/Footer';
 import SearchBar from './acelera/Components/SearchBar';
 import Principal from './acelera/Principal';
+import IniciarSesion from './acelera/IniciarSesion';
+import Notas from './acelera/Notas';
+import Insignias from './acelera/Insignias';
+import ModuloNivel from './acelera/ModuloNivel';
+import ExamenUnidad from './acelera/ExamenUnidad';
+import Problemas from './acelera/Problemas';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -26,6 +32,16 @@ root.render(
         <Route path='/editar' element={<EditarPerfil/>} />
         <Route path='/examen' element={<ExamenEntrada/>} />
         <Route path='/cursos' element={<ModuloCursos/>} />
+        <Route path='/Nivel' element={<ModuloNivel/>} />
+        <Route path='/iniciar' element={<IniciarSesion/>} />
+        <Route path='/notas' element={<Notas/>} />
+        <Route path='/insignias' element={<Insignias/>} />
+        <Route path='/unidad' element={<ExamenUnidad/>} />
+        <Route path='/problemas' element={<Problemas/>} />
+
+
+
+
       
 
       </Routes>
