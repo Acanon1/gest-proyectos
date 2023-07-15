@@ -45,6 +45,8 @@ const SearchBar = () => {
               <MDBNavbarItem>
                 <MDBNavbarLink href='#'>Link</MDBNavbarLink>
               </MDBNavbarItem>
+       
+
               
   
               <MDBNavbarItem>
@@ -71,6 +73,11 @@ const SearchBar = () => {
           
               <MDBBtn color='primary'>Registrarse</MDBBtn>
             </form>
+            <MDBNavbarItem>
+                <MDBNavbarLink active aria-current='page' href='#'>
+                  Cerrar Sesion
+                </MDBNavbarLink>
+              </MDBNavbarItem>
 
    
             
