@@ -6,9 +6,7 @@ import {
     MDBCol,
     MDBCard,
     MDBCardBody,
-    MDBCardImage,
-    MDBInput,
-    MDBIcon,
+
 
   } from 'mdb-react-ui-kit';
 import SearchBar from "./Components/SearchBar";

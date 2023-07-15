@@ -6,7 +6,7 @@ import {
     MDBCol,
     MDBCard,
     MDBCardBody,
-    MDBCardImage,
+   
     MDBInput,
     MDBIcon,
 
